@@ -10,7 +10,7 @@ export default function CTA() {
                 <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:shrink-0">
                     <a
                         href="#"
-                        className="rounded-md w-auto text-center bg-cta px-8 py-3 text-lg  text-white shadow-xs hover:bg-cta-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta-focus"
+                        className="rounded-md w-auto text-center bg-cta px-8 py-3 text-lg font-heading font-semibold text-white shadow-xs hover:bg-cta-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta-focus"
                     >
                         Book now
                     </a>

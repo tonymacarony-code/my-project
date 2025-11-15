@@ -27,22 +27,22 @@ export default function HowItWorks() {
                             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
                                 How it works
                             </p>
-                            <p className="mt-6 text-lg/8 text-gray-700">
-                                Our simple, three-step process makes hiring a handyman easy and stress-free
-                            </p>
-                            <dl className="mt-10 max-w-xl space-y-4 text-base/7 text-gray-600 lg:max-w-none">
-                                {features.map((feature, index) => (
-                                    <div key={feature.name} className="bg-gray-100 rounded-3xl p-6 pt-14 relative">
-                                        <div className="absolute top-4 left-6 text-heading text-xl font-bold">
-                                            {index + 1}
-                                        </div>
-                                        <div className="text-heading text-2xl font-bold">
-                                            {feature.name}
-                                        </div>
-                                        {feature.description}
+                        <p className="mt-6 text-lg/8 text-gray-800">
+                            Our simple, three-step process makes hiring a handyman easy and stress-free
+                        </p>
+                        <dl className="mt-10 max-w-xl space-y-4 text-base/7 text-gray-800 lg:max-w-none">
+                            {features.map((feature, index) => (
+                                <div key={feature.name} className="bg-gray-100 rounded-3xl p-6 pt-14 relative">
+                                    <div className="absolute top-4 left-6 text-heading text-xl font-bold">
+                                        {index + 1}
                                     </div>
-                                ))}
-                            </dl>
+                                    <div className="text-heading text-2xl font-bold">
+                                        {feature.name}
+                                    </div>
+                                    {feature.description}
+                                </div>
+                            ))}
+                        </dl>
                         </div>
                     </div>
                     <Image

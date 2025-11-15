@@ -105,7 +105,7 @@ export default function Gallery() {
                     <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
                         Our Work Gallery
                     </h2>
-                    <p className="mt-6 text-lg text-gray-600">
+                    <p className="mt-6 text-lg text-gray-800">
                         Explore our completed projects and see the quality of our craftsmanship
                     </p>
                 </div>

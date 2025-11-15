@@ -74,14 +74,14 @@ export default function Services() {
                                             {feature.name}
                                         </dt>
 
-                                        <dd className="mt-1 flex flex-col text-base/7 text-gray-600">
+                                        <dd className="mt-1 flex flex-col text-base/7 text-gray-800">
                                             <p>{feature.description}</p>
 
                                         </dd>
                                         <dl>
                                             <ul className="mt-6 space-y-2">
                                                 {feature.services.map((service) => (
-                                                    <li key={service} className="flex items-center gap-2 text-gray-600">
+                                                    <li key={service} className="flex items-center gap-2 text-gray-800">
                                                         <Star />
                                                         <span>{service}</span>
                                                     </li>
@@ -91,7 +91,7 @@ export default function Services() {
                                         <p className="mt-12">
                                             <a
                                                 href={feature.href}
-                                                className="rounded-md w-auto  text-center bg-cta px-8 py-3 text-lg font-semibold text-white shadow-xs hover:bg-cta-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta-focus"
+                                                className="rounded-md w-auto  text-center bg-cta px-8 py-3 text-lg font-heading font-semibold text-white shadow-xs hover:bg-cta-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta-focus"
                                             >
                                                 Book now
                                             </a>

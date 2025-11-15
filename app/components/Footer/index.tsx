@@ -78,7 +78,7 @@ export default function Footer() {
                         </a>
                     ))}
                 </div>
-                <p className="mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0">
+                <p className="mt-8 text-center text-sm/6 text-gray-800 md:order-1 md:mt-0">
                     &copy; 2024 Your Company, Inc. All rights reserved.
                 </p>
             </div>

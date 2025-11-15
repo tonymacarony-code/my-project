@@ -100,7 +100,7 @@ export default function Hero() {
                                 <div className="py-6">
                                     <a
                                         href={''}
-                                        className="rounded-md w-auto  text-center bg-cta px-8 py-3 text-lg font-semibold text-white shadow-xs hover:bg-cta-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta-focus"
+                                        className="rounded-md w-auto  text-center bg-cta px-8 py-3 text-lg font-heading font-semibold text-white shadow-xs hover:bg-cta-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta-focus"
                                     >
                                         Book now
                                     </a>
@@ -120,7 +120,7 @@ export default function Hero() {
                         {/* Текст слева */}
                         <div className="flex-1">
                             <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-[64px]">
-                                Smart service, built for modern homes
+                                Your trusted home professional
                             </h1>
                             <p className="mt-6 text-lg font-medium text-pretty text-gray-800 sm:text-lg/relaxed">
                                 From TV mounting to furniture assembly — DrillWorks connects you with skilled professionals who make your home setup fast, safe, and stress-free.

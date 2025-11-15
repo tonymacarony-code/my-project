@@ -24,10 +24,10 @@ export default function Map() {
                         <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
                             Service Area
                         </h2>
-                        <p className="mt-6 text-lg/8 text-gray-600">
+                        <p className="mt-6 text-lg/8 text-gray-800">
                             We proudly serve Los Angeles area — from Santa Monica to Pasadena, from Downtown to the Valley.
-                            Wherever you are, we’re already nearby, ready to drill, mount, and get it done right.                        </p>
-                        <dl className="mt-10 space-y-6 text-base/7 text-gray-600">
+                            Wherever you are, we're already nearby, ready to drill, mount, and get it done right.                        </p>
+                        <dl className="mt-10 space-y-6 text-base/7 text-gray-800">
                             <div>
                                 <dt className="flex items-center gap-x-3 font-semibold text-gray-900">
                                     <MapPinIcon aria-hidden="true" className="h-6 w-6 text-indigo-600" />
